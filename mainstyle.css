@@ -1,0 +1,154 @@
+
+@import url("960_12_col.css");
+*
+{
+    font-family: arial, times, sans-serif;
+    font-size:100%;
+    background-color: #faf0ca;
+    text-align: center;
+    margin: 0px auto;
+    width: 90%;
+    line-height: 1.5em;
+}
+
+li
+{
+  display:inline;
+  padding: 5px;
+}
+
+p
+{
+  padding:5px 0px;
+}
+
+.header
+{
+  height: 90%;
+}
+
+p.title
+{
+  font-style: italic;
+  font-size: 110%;
+  position:relative;
+  top: 40%;
+  transform: perspective(1px) translateY(-50%);
+}
+
+p.titledesc
+{
+  font-size: 90%;
+  position:relative;
+  top: 40%;
+  transform: perspective(1px) translateY(-50%);
+  word-spacing: 1.25em;
+}
+
+a
+{
+    color: #b5c;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #ffffff;
+}
+
+.navigation
+{
+  height:10%;
+}
+
+.chapter
+{
+  background-color: inherit;
+  padding: 10px 0px 50px 0px;
+}
+
+p.chaptertitle
+{
+  color: #33658a;
+  font-weight: bold;
+}
+
+.chaptertext
+{
+  text-align: left;
+}
+
+.chaptertext p
+{
+  text-align: left;
+  margin-bottom: 1em;
+  line-height: 1.5em;
+
+}
+
+.generalquote
+{
+  margin-left: 40px;
+  font-style:italic;
+}
+
+.personalquote
+{
+  margin-left: 70px;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.chapter3subtitle
+{
+  margin: 5px, 10px;
+  font-weight: bold;
+}
+
+.chapter3subsubtitle
+{
+  font-style: italic;
+  margin: 5px, 5px;
+  text-decoration: underline;
+}
+
+.poem
+{
+  background-color: {};
+}
+
+.albums
+{
+  padding-top: 880px;
+}
+
+.albums img
+{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 400%;
+}
+
+.albums p
+{
+  color: #33658a;
+  font-weight: bold;
+}
+
+.chaptertext img
+{
+  display: block;
+  text-align: center;
+  margin: 50px, 50px;
+}
+
+.chaptertext ul
+{
+  text-align: left;
+}
+
+.chaptertext li
+{
+  margin-right: 10%;
+  margin-left: 10%;
+}
