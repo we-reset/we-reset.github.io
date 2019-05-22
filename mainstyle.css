@@ -34,6 +34,8 @@ p.title
   position:relative;
   top: 40%;
   transform: perspective(1px) translateY(-50%);
+  letter-spacing: .8em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 p.titledesc
@@ -122,11 +124,17 @@ p.chaptertitle
   padding-top: 880px;
 }
 
-.albums img
+.albums a img
 {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 400%;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 360%;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  -moz-transition: -moz-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .albums p
@@ -151,4 +159,13 @@ p.chaptertitle
 {
   margin-right: 10%;
   margin-left: 10%;
+}
+
+.albums a:hover img {
+  -webkit-transform: scale(1.7);
+  -moz-transform: scale(1.7);
+  transform: scale(1.7);
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
