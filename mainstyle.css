@@ -169,3 +169,22 @@ p.chaptertitle
   -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
+
+#box1 {
+  width: 300px;
+  top: 40%;
+  left: 5%;
+  background-color: #33658a;
+  opacity: .8;
+  position: absolute;
+  z-index: 50;
+}
+
+
+#box1:after{
+  content: "";
+  display: block;
+  padding-bottom:100%;
+  border-top-left-radius: 100% 200%;
+  border-bottom-right-radius: 100% 200%;
+}
