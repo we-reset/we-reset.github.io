@@ -119,24 +119,6 @@ p.chaptertitle
   background-color: {};
 }
 
-.albums
-{
-  padding-top: 880px;
-}
-
-.albums a img
-{
-  height: 150px;
-  width: 150px;
-  margin-bottom: 360%;
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  -moz-transition: -moz-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-}
-
 .albums p
 {
   color: #33658a;
@@ -161,6 +143,19 @@ p.chaptertitle
   margin-left: 10%;
 }
 
+
+.albums a img
+{
+  height: 150px;
+  width: 150px;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  -moz-transition: -moz-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
 .albums a:hover img {
   -webkit-transform: scale(1.7);
   -moz-transform: scale(1.7);
@@ -169,6 +164,8 @@ p.chaptertitle
   -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
+
+
 
 #box1 {
   width: 300px;
